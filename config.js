@@ -1,4 +1,4 @@
-/* Copyright (C) 2021 Amal-ser.
+/* Copyright (C) 2021 _CYBERBANNER_.
 re edited by afnanplk  
 Licensed under the  GPL-3.0 License;
 you may not use this file except in compliance with the License.
@@ -21,7 +21,10 @@ DEBUG = process.env.DEBUG === undefined ? false : convertToBool(process.env.DEBU
 module.exports = {
     VERSION: 'v7.3.6',
     CHANNEL: 'https://t.me/remasterplugin',
-    SESSION: process.env.ASENA_SESSION === undefined ? '' : process.env.ASENA_SESSION,
+    SESSION: process.env.ASENA_SESSION === undefined ? '' : proSequelize } = require('sequelize');
+const fs = require('fs');
+if (fs.existsSync('config.env')) require('dotenv').config({ path: './config.env' });
+cess.env.ASENA_SESSION,
     ANTİLİNK: process.env.ANTİ_LİNK === undefined ? 'false' : process.env.ANTİ_LİNK,
     AUTOBİO: process.env.AUTO_BİO === undefined ? 'false' : process.env.AUTO_BİO,
     THERI_KICK: process.env.THERI_KICK === undefined ? 'false' : process.env.THERI_KICK,
@@ -36,7 +39,7 @@ module.exports = {
     ADDMSG: process.env.ADD_MESSAGE === undefined ? 'default' : process.env.ADD_MESSAGE,
     PLKS: process.env.THERI_LIST === undefined ? false : process.env.THERI_LIST,
     MUTEMSG: process.env.MUTE_MESSAGE === undefined ? 'default' : process.env.MUTE_MESSAGE,
-    BOTPLK: process.env.BOT_NAME === undefined ? '💘Aͣmͫaͣls͛eͤrͬ  Вⷡoͦᴛⷮ💘' : process.env.BOT_NAME,
+    BOTPLK: process.env.BOT_NAME === undefined ? '💘_Cʏʙᴇʀʙᴀɴɴᴇʀ_  Вⷡoͦᴛⷮ💘' : process.env.BOT_NAME,
     NOLOG: process.env.NO_LOG === undefined ? 'false' : process.env.NO_LOG,
     FULLEVA: process.env.FULL_EVA === undefined ? 'false' : process.env.FULL_EVA,
     STICKERP: process.env.STICKER_REPLY === undefined ? false : convertToBool(process.env.STICKER_REPLY),
@@ -51,7 +54,7 @@ module.exports = {
     DEMOTEMSG: process.env.DEMOTE_MESSAGE === undefined ? 'default' : process.env.DEMOTE_MESSAGE,
     BANMSG: process.env.BAN_MESSAGE === undefined ? 'default' : process.env.BAN_MESSAGE,
     AFKMSG: process.env.AFK_MESSAGE === undefined ? 'default' : process.env.AFK_MESSAGE,
-    TAGPLK: process.env.TAG_HEADER === undefined ? 'Amal' : process.env.TAG_HEADER,
+    TAGPLK: process.env.TAG_HEADER === undefined ? '_ᴄʏʙᴇʀʙᴀɴɴᴇʀ_' : process.env.TAG_HEADER,
     HANDLERS: process.env.HANDLERS === undefined ? '^[.!;]' : process.env.HANDLERS,
     SEND_READ: process.env.SEND_READ === undefined ? false : convertToBool(process.env.SEND_READ),
     MAHN: process.env.MAAN === undefined ? '919072790587,0' : process.env.MAAN,
