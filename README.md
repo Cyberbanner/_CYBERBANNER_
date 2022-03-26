@@ -22,7 +22,7 @@ Click WA logo to Join Support Group 👇
   
 [![Run on Repl.it](https://repl.it/badge/github/quiec/whatsAlfa)](https://replit.com/@phaticusthiccy/WhatsAsena-QR)
 
-[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/richusir/Amalser_v1)
+[![Deploy](https://www.herokucdn.com/deploy/button.svg)](https://heroku.com/deploy?template=https://github.com/cyberbanner/Amalser_v1)
      </div>
 <br>
 <br >
@@ -46,7 +46,7 @@ By establishing the Asena, you are deemed to have accepted these responsibilitie
   <div align="center">
     
   [![Cyberbanner](<img src=_CYBERBANNER_BOT_1.jpg>
- https://github.com/Richuser_b1 |  
+ https://github.com/Cyberbanner_b1 |  
 ----|
 [Its_me_Cyberbanner](https://github.com/Cyberbanner_v1)  |
 Base, Bug Fixes, Modules | 
